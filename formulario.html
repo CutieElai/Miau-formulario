@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>FORMULaRIO PRUEBa</title>
+	</head>
+
+	<body>
+		<!--La etiqueta <form> puede recibir 2 atributos importantes. El form action recibe una URL que se encarga de procesar los datos-->
+		<!--El metodh es a traves de que metodo vamos a enviar nuestra informacio; puede ser por <Posy> o <get>-->
+		<form>
+			<!--<placeholder> nos sirve para escribir sobre el texto sin tener que borrar. El maxlenght sirve para permitir cuantos caracteres puede el usuario escribir. El name sirve para que identifique todo el input con ese nombre que pusimos en name-->
+			<label for="nombre">Ingrese su nombre</label>
+			<input type="text" placeholder="Nombre" maxlength="20" id="nombre">
+
+			<label for="password"> Ingrese su contraseña</label>
+			<input type="password" placeholder="Escribe tu contraseña" maxlength="20" id="password">
+
+			<label for="email">Email</label>
+			<input type="email" name="" placeholder="Ingrese su mail">
+			<br>
+
+			<input type="checkbox" name=""> Hombre 	
+			<input type="checkbox" name=""> Mujer
+			<br>
+
+			<input type="radio" name=""> Mayor de 18 años
+			<br>
+				<select name="">
+				<option value="Chile">Chile</option>
+				<option value="Bolivia">Bolivia</option>
+				<option value="Uruguay">Uruguay</option>
+
+			</select>
+			<br>
+
+			<input type="button" value="Enviar">
+			<input type="submit" name="">
+
+			<input type="color" name="">
+			<input type="range" name="">
+
+
+		</form>
+
+	</body>
+
+</html>
